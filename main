@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>You Just Lost The Game!</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+      {
+      background-color: #111;
+      color: #fff;
+    }
+
+      {
+      background-color: #fff;
+      color: #111;
+    }
+
+      {
+      margin-top: 20px;
+    }
+
+    p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+
+<body class="dark-mode">
+  <div class="container">
+    <h1>You Just Lost The Game!</h1>
+
+    <script>
+      // JavaScript for toggling dark mode
+      const body = document.body;
+      const toggleDarkMode = () => {
+        body.classList.toggle('dark-mode');
+        body.classList.toggle('light-mode');
+      };
+    </script>
+</body>
+
+</html>
